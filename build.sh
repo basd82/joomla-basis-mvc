@@ -50,3 +50,6 @@ sed -i "s/basis/$NAAM/g" $f
 done
 cp ../$NAAM/admin/language/en-GB/* ../$NAAM/admin/language/nl-NL/
 cp ../$NAAM/site/language/en-GB/* ../$NAAM/site/language/nl-NL/
+cd ../$NAAM
+zip $NAAM.zip * -r
+cd ..
