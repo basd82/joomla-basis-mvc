@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade">
+    <name>COM_BASIS</name>
+    <creationDate>datum</creationDate>
+    <copyright>Copyright (C) 2021 B.F. van den Dikkenberg.</copyright>
+    <license>GNU General Public License version 2 or later.</license>
+    <authorEmail>bas@hobby.nl</authorEmail>
+    <authorUrl>www.hobby.nl</authorUrl>
+    <version>0.0.1</version>
+    <description>COM_BASIS_DESC</description>
+    <namespace path="src/">hcc\Component\basis</namespace>
+    <files folder="site/">
+        <folder>src</folder>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+
+    </files>
+    <languages>
+        <language tag="nl-NL">site/language/nl-NL/com_basis.ini</language>
+        <language tag="en-GB">site/language/en-GB/com_basis.ini</language>
+    </languages>
+    <administration>
+        <menu link="index.php?option=com_basis">COM_BASIS_MENU_BASIS_TITLE</menu>
+        <files folder="admin/">
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+            <folder>language</folder>
+
+        </files>
+        <languages>
+            <language tag="nl-NL">admin/language/nl-NL/com_basis.ini</language>
+            <language tag="nl-NL">admin/language/nl-NL/com_basis.sys.ini</language>
+            <language tag="en-GB">admin/language/en-GB/com_basis.ini</language>
+            <language tag="en-GB">admin/language/en-GB/com_basis.sys.ini</language>
+        </languages>
+    </administration>
+
+</extension>
