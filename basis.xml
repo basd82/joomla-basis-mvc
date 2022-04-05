@@ -2,7 +2,7 @@
 <extension type="component" method="upgrade">
     <name>COM_BASIS</name>
     <creationDate>datum</creationDate>
-    <copyright>Copyright (C) 2021 B.F. van den Dikkenberg.</copyright>
+    <copyright>Copyright (C) 2022 B.F. van den Dikkenberg.</copyright>
     <license>GNU General Public License version 2 or later.</license>
     <authorEmail>bas@hobby.nl</authorEmail>
     <authorUrl>www.hobby.nl</authorUrl>
